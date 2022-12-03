@@ -28,7 +28,8 @@
                         <label for="num2">Número 2</label>
                         <input type="text" id="num2" class="entradas">
                     </div>
-                    <!-- DIV PARA MOSTRAR EL RESULTADO DE LA OPERACIÓN -->
+                    <section><h2 id="texto-resultado">RESULTADO:</h2></section>
+                    <!-- DIV PARA MOSTRAR EL RESULTADO DE LA -->
                     <div id="mostrar"></div>
                 </div> <!-- visualizacion -->
 
@@ -38,49 +39,49 @@
 
                         <div class="filas row">
                             <div class="columnas col">
-                                <button type="button" class="btn btn-outline-primary">7</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="poner7()">7</button>
                             </div>
                             <div class="columnas col">
-                                <button type="button" class="btn btn-outline-primary">8</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="poner8()">8</button>
                             </div>
                             <div class="columnas col">
-                                <button type="button" class="btn btn-outline-primary">9</button>
-                            </div>
-                        </div>
-
-                        <div class="filas row">
-                            <div class="columnas col">
-                                <button type="button" class="btn btn-outline-primary">4</button>
-                            </div>
-                            <div class="columnas col">
-                                <button type="button" class="btn btn-outline-primary">5</button>
-                            </div>
-                            <div class="columnas col">
-                                <button type="button" class="btn btn-outline-primary">6</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="poner9()">9</button>
                             </div>
                         </div>
 
                         <div class="filas row">
                             <div class="columnas col">
-                            <button type="button" class="btn btn-outline-primary">1</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="poner4()">4</button>
                             </div>
                             <div class="columnas col">
-                              <button type="button" class="btn btn-outline-primary">2</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="poner5()">5</button>
                             </div>
                             <div class="columnas col">
-                              <button type="button" class="btn btn-outline-primary">3</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="poner6()">6</button>
                             </div>
                         </div>
 
                         <div class="filas row">
                             <div class="columnas col">
-                              <button type="button" class="btn btn-outline-primary">*</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="poner1()">1</button>
                             </div>
                             <div class="columnas col">
-                              <button type="button" class="btn btn-outline-primary">0</button>
+                              <button type="button" class="btn btn-outline-primary" onclick="poner2()">2</button>
                             </div>
                             <div class="columnas col">
-                              <button type="button" class="btn btn-outline-primary">/</button>
+                              <button type="button" class="btn btn-outline-primary" onclick="poner3()">3</button>
+                            </div>
+                        </div>
+
+                        <div class="filas row">
+                            <div class="columnas col">
+                              <button type="button" class="btn btn-outline-primary" onclick="multiplicar()">X</button>
+                            </div>
+                            <div class="columnas col">
+                              <button type="button" class="btn btn-outline-primary" onclick="poner0()">0</button>
+                            </div>
+                            <div class="columnas col">
+                              <button type="button" class="btn btn-outline-primary" onclick="dividir()">/</button>
                             </div>
                         </div>
 
@@ -89,7 +90,10 @@
                               <button type="button" class="btn btn-outline-primary" onclick="sumar()">+</button>
                             </div>
                             <div class="columnas col">
-                              <button type="button" class="btn btn-outline-primary">-</button>
+                                <button type="button" class="btn btn-outline-primary" onclick="enterTecladoVirtual()">ENTER</button>
+                              </div>
+                            <div class="columnas col">
+                              <button type="button" class="btn btn-outline-primary" onclick="restar()">-</button>
                             </div>
                             
                         </div>

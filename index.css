@@ -2,6 +2,7 @@ body{
     background-color: rgb(166, 167, 173);
 }
 
+/* Contenedor principal */
 div#calculadora {
     border: solid 1px;
     border-radius: 3%;
@@ -19,6 +20,7 @@ h1#titulo-h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Parte superior con la lectura y captura de información */
 div#visualizacion {
     height: 20%;
     background-color: rgba(255, 0, 0, 0.377);
@@ -26,6 +28,7 @@ div#visualizacion {
     border: solid 1px;
 }
 
+/* CParte inferior con los botones */
 div#teclado{
     background-color: aquamarine;
     border: solid 1px;
@@ -35,6 +38,7 @@ div#teclado{
     padding: 0.2%;
 }
 
+/* contenedor general de los botones */
 .botones{
     height: 100%;
     background-color: chocolate;
@@ -42,10 +46,12 @@ div#teclado{
     border-radius: 3%;
 }
 
+/* Contenedor tipo "row" (filas) de los botones (se define el alto) */
 .filas{
     height: 20%;
 }
 
+/* Contenedor de las columnas con su respectivo ancho y separación */
 .columnas{
     background-color: cadetblue;
     margin-left: 0.5%;
@@ -55,7 +61,13 @@ div#teclado{
     border-radius: 5%;
 }
 
+/* Clase de los botones en boostrap */
 .btn{
     width: 100%;
     height: 100%;
+}
+
+/* Inputs de html */
+.entradas{
+    margin-top: 2%;
 }
